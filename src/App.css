@@ -61,4 +61,21 @@ h1 {
   /* border: red solid; */
   position: relative;
   right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(268deg);
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
 }
