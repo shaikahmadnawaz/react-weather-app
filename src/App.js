@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -7,8 +6,26 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="top"></div>
-        <div className="bottom"></div>
+        <div className="top">
+          <div className="location">
+            <p>Vijayawada</p>
+          </div>
+          <div className="temp">
+            <h1>65°F</h1>
+          </div>
+          <div className="div">
+            <p>Clouds</p>
+          </div>
+        </div>
+        <div className="bottom">
+          <div className="feels">
+            <p>65°</p>
+          </div>
+          <div className="humidity">
+            <p>20%</p>
+          </div>
+          <div className="wind">12 MPH</div>
+        </div>
       </div>
     </div>
   );
