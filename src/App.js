@@ -4,7 +4,7 @@ function App() {
   // const url = `https://api.openweathermap.org/data/2.5/weather?q=guntur&appid=process.env.REACT_APP_API_KEY`;
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
         <div className="top">
           <div className="location">
@@ -13,7 +13,7 @@ function App() {
           <div className="temp">
             <h1>65°F</h1>
           </div>
-          <div className="div">
+          <div className="description">
             <p>Clouds</p>
           </div>
         </div>
